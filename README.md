@@ -98,18 +98,18 @@ DeviceNetworkEvents
 
 ### 1. File Download - TOR Installer
 
-- **Timestamp:** `2024-11-08T22:14:48.6065231Z`
-- **Event:** The user "employee" downloaded a file named `tor-browser-windows-x86_64-portable-14.5.7.exe` to the Downloads folder.
+- **Timestamp:** `2025-10-04T19:16:45.455884Z`
+- **Event:** The user "labuser" downloaded a file named `tor-browser-windows-x86_64-portable-14.5.7.exe` to the Downloads folder.
 - **Action:** File download detected.
-- **File Path:** `C:\Users\employee\Downloads\tor-browser-windows-x86_64-portable-14.5.7.exe`
+- **File Path:** `C:\Users\labuser\Downloads\tor-browser-windows-x86_64-portable-14.5.7.exe`
 
 ### 2. Process Execution - TOR Browser Installation
 
-- **Timestamp:** `2024-11-08T22:16:47.4484567Z`
-- **Event:** The user "employee" executed the file `tor-browser-windows-x86_64-portable-14.5.7.exe` in silent mode, initiating a background installation of the TOR Browser.
+- **Timestamp:** `2025-10-04T19:16:45.455884Z`
+- **Event:** The user "labuser" executed the file `tor-browser-windows-x86_64-portable-14.5.7.exe` in silent mode, initiating a background installation of the TOR Browser.
 - **Action:** Process creation detected.
 - **Command:** `tor-browser-windows-x86_64-portable-14.5.7.exe /S`
-- **File Path:** `C:\Users\employee\Downloads\tor-browser-windows-x86_64-portable-14.5.7.exe`
+- **File Path:** ` C:\Users\labuser\Downloads\tor-browser-windows-x86_64-portable-14.5.7.exe`
 
 ### 3. Process Execution - TOR Browser Launch
 
