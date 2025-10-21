@@ -16,7 +16,7 @@
 
 ---
 
-## Table:
+## Tables Used for IoC Identification:
 | **Parameter**       | **Description**                                                              |
 |---------------------|------------------------------------------------------------------------------|
 | **Name**| DeviceFileEvents|
