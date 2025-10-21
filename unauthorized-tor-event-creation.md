@@ -19,9 +19,21 @@
 ## Table:
 | **Parameter**       | **Description**                                                              |
 |---------------------|------------------------------------------------------------------------------|
-| **Name**| DeviceLogonEvents|
-| **Info**|https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicelogonevents-table|
-| **Purpose**| Used to detect failed and successful logons by threat actors. |
+| **Name**| DeviceFileEvents|
+| **Info**|https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table|
+| **Purpose**| Used to detect TOR download and list creation.|
+
+| **Parameter**       | **Description**                                                              |
+|---------------------|------------------------------------------------------------------------------|
+| **Name**| DeviceProcessEvents|
+| **Info**|https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table|
+| **Purpose**| Used to detect the silent installation and launching of TOR.|
+
+| **Parameter**       | **Description**                                                              |
+|---------------------|------------------------------------------------------------------------------|
+| **Name**| DeviceNetworkEvents|
+| **Info**|https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicenetworkevents-table|
+| **Purpose**| Used to detect connections to known TOR ports (e.g, 9001, 9030, 9040, 9050, 9051, 9150) and sites over ports 80 and 443.|
 
 ---
 
@@ -59,27 +71,4 @@ DeviceNetworkEvents
 DeviceFileEvents
 | where FileName contains "shopping-list.txt"
 ```
-
 ---
-
-## Created By:
-- **Author Name**: Irene Ojini
-- **Author Contact**: https://www.linkedin.com/in/iojini/
-- **Date**: October 2025
-
-## Validated By:
-- **Reviewer Name**: 
-- **Reviewer Contact**: 
-- **Validation Date**: 
-
----
-
-## Additional Notes:
-- **None**
-
----
-
-## Revision History:
-| **Version** | **Changes**                   | **Date**         | **Modified By**   |
-|-------------|-------------------------------|------------------|-------------------|
-| 1.0         | Initial draft                  | `October 2025`  | `Irene Ojini`   
