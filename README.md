@@ -23,7 +23,7 @@ Management suspects that employees may be using TOR browsers to bypass network s
 
 ## Steps Taken
 
-### 1. Searched the `DeviceFileEvents` Table
+### 1. Searched the `DeviceFileEvents` Table for TOR-Related Files
 
 Searched for any file that had the string "tor" in it and discovered what looks like the user "labuser" downloaded a TOR installer, did something that resulted in many TOR-related files being copied to the desktop, and the creation of a file called `tor-shopping-list.txt` on the desktop at `2025-10-04T19:49:26.090506Z`. These events began at `2025-10-04T19:16:45.455884Z`.
 
@@ -42,7 +42,7 @@ DeviceFileEvents
 
 ---
 
-### 2. Searched the `DeviceProcessEvents` Table
+### 2. Searched the `DeviceProcessEvents` Table for TOR Installation
 
 Searched for any `ProcessCommandLine` that contained the string "tor-browser-windows-x86_64-portable-14.5.7.exe". Based on the logs returned, at `2025-10-04T19:16:45.455884Z`, an employee on the "irene-test-vm-m" device ran the file `tor-browser-windows-x86_64-portable-14.5.7.exe` from their Downloads folder, using a command that triggered a silent installation.
 
