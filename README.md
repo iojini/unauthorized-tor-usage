@@ -4,7 +4,7 @@
 
 ##  Scenario
 
-Management suspects that employees may be using TOR browsers to bypass network security controls, based on the recent detection of unusual encrypted traffic patterns and connections to known TOR entry nodes in network logs. Additionally, anonymous reports indicate employees have been discussing methods to access restricted sites during work hours. This threat hunt aims to detect any TOR browser usage and analyze related security incidents to mitigate potential risks to organizational security and policy compliance.
+Management suspects that employees may be using TOR browsers to bypass network security controls, based on the recent detection of unusual encrypted traffic patterns and connections to known TOR entry nodes in network logs. Additionally, anonymous reports indicate employees have been discussing methods to access restricted sites during work hours. This investigation aims to detect any TOR browser usage and analyze related security incidents to mitigate potential risks to organizational security and policy compliance.
 - [Scenario Creation](https://github.com/iojini/unauthorized-tor-usage/blob/main/unauthorized-tor-event-creation.md)
 
 ## Platforms and Languages Leveraged
